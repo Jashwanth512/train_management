@@ -5,7 +5,7 @@ from mysql.connector import Error
 def db():
     connection=None
     try:
-        connection=mysql.connector.connect(host='localhost',user='root',passwd='180262@Jashu',auth_plugin='mysql_native_password',
+        connection=mysql.connector.connect(host='localhost',user='root',passwd='',
                                            database='railway_management_system')
         print('Sucessfull')
     except Error as e:
