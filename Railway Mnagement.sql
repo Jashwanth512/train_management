@@ -54,6 +54,3 @@ ticket_status char(20),
 category varchar(20),
 foreign key (trainNumber,booking_Date) references train_status(trainNumber,train_date)
 );
-
-select * from passenger;
-select * from train_status;
